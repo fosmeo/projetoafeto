@@ -1,0 +1,30 @@
+[2017-11-01 18:49:52] production.ERROR: InvalidArgumentException: The "" directory does not exist. in /var/www/html/git/projetoafeto/vendor/symfony/finder/Finder.php:546
+Stack trace:
+#0 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(87): Symfony\Component\Finder\Finder->in(false)
+#1 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(64): Illuminate\Foundation\Bootstrap\LoadConfiguration->getConfigurationFiles(Object(Illuminate\Foundation\Application))
+#2 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#3 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(208): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#4 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#5 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#6 /var/www/html/git/projetoafeto/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 {main}  
+[2017-11-01 18:50:51] production.ERROR: InvalidArgumentException: The "" directory does not exist. in /var/www/html/git/projetoafeto/vendor/symfony/finder/Finder.php:546
+Stack trace:
+#0 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(87): Symfony\Component\Finder\Finder->in(false)
+#1 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(64): Illuminate\Foundation\Bootstrap\LoadConfiguration->getConfigurationFiles(Object(Illuminate\Foundation\Application))
+#2 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#3 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(208): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#4 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#5 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#6 /var/www/html/git/projetoafeto/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 {main}  
+[2017-11-01 18:51:15] production.ERROR: InvalidArgumentException: The "" directory does not exist. in /var/www/html/git/projetoafeto/vendor/symfony/finder/Finder.php:546
+Stack trace:
+#0 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(87): Symfony\Component\Finder\Finder->in(false)
+#1 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(64): Illuminate\Foundation\Bootstrap\LoadConfiguration->getConfigurationFiles(Object(Illuminate\Foundation\Application))
+#2 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\Foundation\Bootstrap\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\Foundation\Application), Object(Illuminate\Config\Repository))
+#3 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(208): Illuminate\Foundation\Bootstrap\LoadConfiguration->bootstrap(Object(Illuminate\Foundation\Application))
+#4 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(267): Illuminate\Foundation\Application->bootstrapWith(Array)
+#5 /var/www/html/git/projetoafeto/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(114): Illuminate\Foundation\Console\Kernel->bootstrap()
+#6 /var/www/html/git/projetoafeto/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 {main}  

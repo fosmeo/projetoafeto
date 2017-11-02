@@ -1,0 +1,18 @@
+body{
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 300;
+}
+
+.marginsH{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.marginsV{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.oneline-input input{
+    width:100% !important ;
+}
